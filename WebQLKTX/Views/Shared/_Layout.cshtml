@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebQLKTX</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebQLKTX.styles.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* Xóa thanh cuộn toàn bộ trang */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Header cố định trên cùng với màu xám */
+        .navbar {
+            flex-shrink: 0;
+            background-color: #f1f1f1; /* Màu xám */
+            border-bottom: 2px solid #007bff; /* Viền xanh dương */
+        }
+
+        /* Layout chính */
+        .wrapper {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+            border-top: 2px solid #007bff; /* Viền ngăn Header */
+        }
+
+        /* Sidebar với khung viền màu trắng */
+        .sidebar {
+            width: 250px;
+            background-color: #d7e9f7;
+            border-right: 3px solid white; /* Viền trắng rõ ràng */
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+            /* Tiêu đề Sidebar */
+            .sidebar h5 {
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 15px;
+                color: #007bff;
+            }
+
+            /* Menu Sidebar */
+            .sidebar .nav-link {
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+                padding: 12px 20px;
+                color: #0056b3;
+                border-radius: 8px;
+                transition: 0.3s;
+                border-bottom: 1px solid white; /* Viền trắng giữa các mục */
+            }
+
+                /* Hiệu ứng hover */
+                .sidebar .nav-link:hover {
+                    background-color: rgba(255, 255, 255, 0.7);
+                    transform: scale(1.05);
+                }
+
+                /* Icon trong menu */
+                .sidebar .nav-link i {
+                    margin-right: 12px;
+                    font-size: 18px;
+                }
+
+        /* Nội dung chính */
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            border-left: 3px solid #007bff; /* Viền nội dung chính */
+        }
+
+            /* Ẩn thanh cuộn trên Chrome, Safari */
+            .content::-webkit-scrollbar {
+                display: none;
+            }
+
+        /* Footer cố định dưới cùng */
+        .footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            border-top: 2px solid #007bff; /* Viền Footer */
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebQLKTX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="Index">Dashboard</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Layout chính với Sidebar -->
+    <div class="wrapper">
+        @if (User.Identity.IsAuthenticated)  
+        {
+            <!-- Sidebar -->
+            <nav class="sidebar">
+                <div class="p-3">
+                    <h5>📌 Chức năng</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home"></i>🏠 Trang chủ
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Phong" asp-action="Index">
+                                <i class="fas fa-bed"></i>🏠 Quản lý Phòng
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="SinhVien" asp-action="Index">
+                                <i class="fas fa-user-graduate"></i>🎓 Quản lý Sinh viên
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="YeuCau" asp-action="Index">
+                                <i class="fas fa-envelope"></i>📩 Quản lý Yêu Cầu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="ThongBao" asp-action="Index">
+                                <i class="fas fa-bullhorn"></i>📢 Quản lý Thông Báo
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="HoaDonTong" asp-action="Index">
+                                <i class="fas fa-file-invoice-dollar"></i>📜 Quản lý Hóa Đơn
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="TienDienNuoc" asp-action="Index">
+                                <i class="fas fa-bolt"></i>⚡💧 Quản lý tiền điện nước
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="KhaiBaoBHYT" asp-action="Index">
+                                <i class="fas fa-user-md"></i>🏥 Khai báo BHYT
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="DangKyKhamChuaBenh" asp-action="Index">
+                                <i class="fas fa-stethoscope"></i>🩺 Đăng ký Khám chữa bệnh
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        }
+        <!-- Nội dung chính -->
+        <main class="content">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer cố định dưới cùng -->
+    <footer class="footer">
+        <p>&copy; 2025 - WebQLKTX | <a href="#">Chính sách bảo mật</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

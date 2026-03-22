@@ -1,0 +1,68 @@
+﻿@model QuanLyKTX.Models.KhaiBaoBHYT
+
+@{
+    ViewData["Title"] = "Chi tiết khai báo BHYT";
+}
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/72/84/a5/7284a5a694f99e5a850dde33ff47f941.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Arial', sans-serif;
+    }
+</style>
+<div class="container mt-4">
+    <h2 class="text-center text-primary">
+        <i class="fas fa-info-circle"></i> Chi tiết khai báo BHYT
+    </h2>
+    <hr />
+
+    <div class="card shadow-lg">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4 fw-bold text-secondary">
+                    <i class="fas fa-hashtag"></i> @Html.DisplayNameFor(model => model.MaKhaiBao)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.MaKhaiBao)
+                </dd>
+
+                <dt class="col-sm-4 fw-bold text-secondary">
+                    <i class="fas fa-id-card"></i> @Html.DisplayNameFor(model => model.MaTheBHYT)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.MaTheBHYT)
+                </dd>
+
+                <dt class="col-sm-4 fw-bold text-secondary">
+                    <i class="fas fa-calendar-alt"></i> @Html.DisplayNameFor(model => model.NgayCap)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.NgayCap)
+                </dd>
+
+                <dt class="col-sm-4 fw-bold text-secondary">
+                    <i class="fas fa-calendar-times"></i> @Html.DisplayNameFor(model => model.NgayHetHan)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.NgayHetHan)
+                </dd>
+
+                <dt class="col-sm-4 fw-bold text-secondary">
+                    <i class="fas fa-user"></i> @Html.DisplayNameFor(model => model.MaSV)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.MaSV)
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.MaKhaiBao" class="btn btn-warning">
+            <i class="fas fa-edit"></i> Chỉnh sửa
+        </a>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Quay lại danh sách
+        </a>
+    </div>
+</div>

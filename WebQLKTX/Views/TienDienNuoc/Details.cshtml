@@ -1,0 +1,44 @@
+﻿@model QuanLyKTX.Models.TienDienNuoc
+
+@{
+    ViewData["Title"] = "Chi Tiết Phiếu Thu Tiền Điện Nước";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4 p-4 bg-light text-dark rounded shadow-lg" style="border: 2px solid #007bff;">
+    <h2 class="text-center text-primary">⚡💧 Chi Tiết Phiếu Thu Tiền Điện Nước 💧⚡</h2>
+
+    <div class="card border-primary shadow-sm mt-4">
+        <div class="card-body">
+            <h4 class="card-title text-center text-info">Thông Tin Phiếu</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4 text-primary">🏠 Phòng:</dt>
+                <dd class="col-sm-8">@Model.Phong.TenPhong</dd>
+
+                <dt class="col-sm-4 text-primary">📅 Ngày Lập Phiếu:</dt>
+                <dd class="col-sm-8">@Model.NgayTaoPhieu.ToString("dd/MM/yyyy")</dd>
+
+                <dt class="col-sm-4 text-primary">⚡ Số Điện (kWh):</dt>
+                <dd class="col-sm-8">@Model.SoDien</dd>
+
+                <dt class="col-sm-4 text-primary">💰 Giá Điện (VNĐ/kWh):</dt>
+                <dd class="col-sm-8">@Model.GiaDien.ToString("N0")</dd>
+
+                <dt class="col-sm-4 text-primary">💦 Số Nước (m³):</dt>
+                <dd class="col-sm-8">@Model.SoNuoc</dd>
+
+                <dt class="col-sm-4 text-primary">💰 Giá Nước (VNĐ/m³):</dt>
+                <dd class="col-sm-8">@Model.GiaNuoc.ToString("N0")</dd>
+
+                <dt class="col-sm-4 text-danger fw-bold">💲 Tổng Tiền (VNĐ):</dt>
+                <dd class="col-sm-8 text-danger fw-bold">@Model.TongTien.ToString("N0")</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.MaPhieu" class="btn btn-warning px-4">✏️ Chỉnh Sửa</a>
+        <a asp-action="Index" class="btn btn-primary px-4">📜 Quay Lại Danh Sách</a>
+    </div>
+</div>

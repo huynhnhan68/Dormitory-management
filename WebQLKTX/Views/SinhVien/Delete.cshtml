@@ -1,0 +1,109 @@
+﻿@model QuanLyKTX.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Xóa Sinh Viên";
+}
+
+<style>
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/736x/1c/ca/c6/1ccac622a6c64dbaa5677d208a190587.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .delete-container {
+        background: rgba(255, 255, 255, 0.98);
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        max-width: 650px;
+        margin: auto;
+        margin-top: 50px;
+        border: 2px solid #dc3545;
+    }
+
+    .delete-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #dc3545;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .student-info {
+        background: #f8d7da;
+        padding: 15px;
+        border-radius: 8px;
+        border-left: 5px solid #dc3545;
+    }
+
+    .btn {
+        border-radius: 8px;
+        font-weight: bold;
+        width: 48%;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+</style>
+
+<div class="container">
+    <div class="delete-container">
+        <h2 class="delete-title"><i class="fas fa-exclamation-triangle"></i> Xóa Sinh Viên</h2>
+
+        <h5 class="text-center text-danger">⚠ Bạn có chắc chắn muốn xóa sinh viên này?</h5>
+
+        @if (ViewBag.CanDelete == false)
+        {
+            <div class="alert alert-warning text-center">
+                <strong>Lưu ý:</strong> Sinh viên đang ở trong phòng. Hãy chuyển phòng hoặc xác nhận trước khi xóa!
+            </div>
+        }
+
+        <div class="student-info">
+            <dl class="dl-horizontal">
+                <dt><strong>Mã Sinh Viên:</strong></dt>
+                <dd>@Model.MaSV</dd>
+                <dt><strong>Họ Tên:</strong></dt>
+                <dd>@Model.HoTen</dd>
+                <dt><strong>Ngày Sinh:</strong></dt>
+                <dd>@Model.NgaySinh.ToString("dd/MM/yyyy")</dd>
+                <dt><strong>Giới Tính:</strong></dt>
+                <dd>@Model.GioiTinh</dd>
+                <dt><strong>Số Điện Thoại:</strong></dt>
+                <dd>@Model.SDT</dd>
+                <dt><strong>Email:</strong></dt>
+                <dd>@Model.Email</dd>
+                <dt><strong>Địa Chỉ:</strong></dt>
+                <dd>@Model.DiaChi</dd>
+                <dt><strong>Mã Phòng:</strong></dt>
+                <dd>@Model.MaPhong</dd>
+            </dl>
+        </div>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="MaSV" />
+            <div class="d-flex justify-content-between mt-3">
+                @if (ViewBag.CanDelete == true)
+                {
+                    <button type="submit" class="btn btn-danger">
+                        <i class="fas fa-trash"></i> Xóa
+                    </button>
+                }
+                else
+                {
+                    <button type="submit" class="btn btn-danger" disabled>
+                        <i class="fas fa-trash"></i> Không thể xóa
+                    </button>
+                }
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Quay lại
+                </a>
+            </div>
+        </form>
+    </div>
+</div>

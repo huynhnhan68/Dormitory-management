@@ -1,0 +1,59 @@
+﻿@model IEnumerable<QuanLyKTX.Models.HoaDonTong>
+
+@{
+    ViewData["Title"] = "Danh Sách Hóa Đơn Tổng";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded border-0" style="background: #fff;">
+        <div class="card-header bg-dark text-white text-center rounded-top">
+            <h2 class="mb-0">Danh Sách Hóa Đơn Tổng</h2>
+        </div>
+        <div class="card-body">
+            <div class="d-flex justify-content-end mb-3">
+                <a asp-action="Create" class="btn btn-primary">+ Thêm Hóa Đơn</a>
+            </div>
+            <table class="table table-hover table-bordered text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Mã Hóa Đơn</th>
+                        <th>Mã Phiếu Điện Nước</th>
+                        <th>Mã Phòng</th>
+                        <th>Tiền Phòng</th>
+                        <th>Đã Thanh Toán</th>
+                        <th>Thao Tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.MaHoaDon</td>
+                            <td>@item.MaPhieuTienDienNuoc</td>
+                            <td>@item.MaPhong</td>
+                            <td>@item.TienPhong.ToString("N0") VNĐ</td>
+                            <td>@(item.DaThanhToan ? "✔️ Đã Thanh Toán" : "❌ Chưa Thanh Toán")</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.MaHoaDon" class="btn btn-warning btn-sm">Sửa</a>
+                                <a asp-action="Details" asp-route-id="@item.MaHoaDon" class="btn btn-info btn-sm">Chi Tiết</a>
+                                <a asp-action="Delete" asp-route-id="@item.MaHoaDon" class="btn btn-danger btn-sm">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(to right, #ff758c, #ff7eb3);
+    }
+    .table {
+        background: #fff;
+    }
+    .btn-sm {
+        margin: 2px;
+    }
+</style>

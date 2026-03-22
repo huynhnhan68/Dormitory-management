@@ -1,0 +1,10 @@
+﻿@page
+@model Microsoft.AspNetCore.Mvc.RazorPages.PageModel
+@{
+    ViewData["Title"] = "Truy cập bị từ chối";
+}
+
+<h1 class="text-danger">Bạn không có quyền truy cập trang này</h1>
+<p>Vui lòng liên hệ quản trị viên để được cấp quyền.</p>
+
+<a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-primary">Quay lại trang chủ</a>

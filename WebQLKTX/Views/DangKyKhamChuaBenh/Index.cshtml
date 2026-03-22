@@ -1,0 +1,52 @@
+﻿@model IEnumerable<QuanLyKTX.Models.DangKyKhamChuaBenh>
+@{
+    ViewData["Title"] = "Danh Sách Đăng Ký";
+}
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/0e/1c/45/0e1c45401476310c18f9f4451a0d646a.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .title-box {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+</style>
+
+<h1 class="text-info text-center">
+    <span class="title-box">Danh Sách Đăng Ký Khám Chữa Bệnh</span>
+</h1>
+<div class="container">
+    <a asp-action="Create" class="btn btn-success mb-3">Thêm Mới</a>
+    <table class="table table-hover shadow-lg bg-white">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã Đăng Ký</th>
+                <th>Ngày Đăng Ký</th>
+                <th>Nội Dung</th>
+                <th>Mã Sinh Viên</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaDangKy</td>
+                    <td>@item.NgayDangKy</td>
+                    <td>@item.NoiDung</td>
+                    <td>@item.MaSV</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.MaDangKy" class="btn btn-warning">Sửa</a>
+                        <a asp-action="Details" asp-route-id="@item.MaDangKy" class="btn btn-info">Chi Tiết</a>
+                        <a asp-action="Delete" asp-route-id="@item.MaDangKy" class="btn btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,72 @@
+﻿@model QuanLyKTX.Models.KhaiBaoBHYT
+
+@{
+    ViewData["Title"] = "Chỉnh sửa khai báo BHYT";
+}
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/72/84/a5/7284a5a694f99e5a850dde33ff47f941.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Arial', sans-serif;
+    }
+</style>
+<div class="container mt-4">
+    <h2 class="text-center text-primary">
+        <i class="fas fa-edit"></i> Chỉnh sửa thông tin BHYT
+    </h2>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <div class="mb-3">
+                            <label asp-for="MaTheBHYT" class="form-label fw-bold">
+                                <i class="fas fa-id-card"></i> Mã thẻ BHYT
+                            </label>
+                            <input asp-for="MaTheBHYT" class="form-control" placeholder="Nhập mã thẻ BHYT" />
+                            <span asp-validation-for="MaTheBHYT" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="NgayCap" class="form-label fw-bold">
+                                <i class="fas fa-calendar-alt"></i> Ngày cấp
+                            </label>
+                            <input asp-for="NgayCap" type="date" class="form-control" />
+                            <span asp-validation-for="NgayCap" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="NgayHetHan" class="form-label fw-bold">
+                                <i class="fas fa-calendar-times"></i> Ngày hết hạn
+                            </label>
+                            <input asp-for="NgayHetHan" type="date" class="form-control" />
+                            <span asp-validation-for="NgayHetHan" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="MaSV" class="form-label fw-bold">
+                                <i class="fas fa-user"></i> Mã sinh viên
+                            </label>
+                            <input asp-for="MaSV" class="form-control" placeholder="Nhập mã sinh viên" />
+                            <span asp-validation-for="MaSV" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success">
+                                <i class="fas fa-save"></i> Lưu thay đổi
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="text-center mt-3">
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Quay lại danh sách
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+﻿@model QuanLyKTX.Models.Phong
+
+@{
+    ViewData["Title"] = "Thêm Phòng";
+}
+
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/d7/8f/4d/d78f4d7dd9b71f6dbb3542f46cc68371.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .form-container {
+        background: rgba(255, 248, 220, 0.9); /* Màu nền nhẹ nhàng, cảm giác mùa thu */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: 50px auto;
+    }
+
+    h2 {
+        text-align: center;
+        color: #d2691e;
+    }
+
+    .btn-success {
+        background-color: #ff8c00; /* Màu cam ấm áp */
+        border-color: #ff8c00;
+    }
+
+    .btn-secondary {
+        background-color: #6b4226; /* Màu nâu đậm gợi cảm giác mùa thu */
+        border-color: #6b4226;
+    }
+</style>
+
+<div class="container">
+    <div class="form-container">
+        <h2>Thêm Phòng</h2>
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="TenPhong"></label>
+                <input asp-for="TenPhong" class="form-control" />
+            </div>
+
+      
+            <div class="form-group">
+                <label asp-for="LoaiPhong" class="control-label"></label>
+                <select asp-for="LoaiPhong" class="form-control" asp-items="@(new SelectList(new List<string> { "Nam", "Nữ" }))"></select>
+                <span asp-validation-for="LoaiPhong" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SoLuongToiDa"></label>
+                <input asp-for="SoLuongToiDa" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-success">Lưu</button>
+            <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>

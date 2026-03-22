@@ -1,0 +1,48 @@
+﻿@model QuanLyKTX.Models.HoaDonTong
+
+@{
+    ViewData["Title"] = "Xác nhận xóa hóa đơn";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded border-0" style="background: #fff; max-width: 600px; margin: auto;">
+        <div class="card-header bg-danger text-white text-center rounded-top">
+            <h2 class="mb-0">⚠️ Xác Nhận Xóa</h2>
+        </div>
+        <div class="card-body text-center">
+            <p class="text-danger fw-bold">Bạn có chắc chắn muốn xóa hóa đơn <strong>@Model.MaHoaDon</strong> không?</p>
+            <table class="table table-bordered text-center">
+                <tbody>
+                    <tr><th class="bg-light">Mã Phiếu</th><td>@Model.MaPhieuTienDienNuoc</td></tr>
+                    <tr><th class="bg-light">Mã Phòng</th><td>@Model.MaPhong</td></tr>
+                    <tr><th class="bg-light">Tiền Phòng</th><td>@Model.TienPhong.ToString("N0") VNĐ</td></tr>
+                    <tr><th class="bg-light">Tiền Điện Nước</th><td>@Model.TongTienDienNuoc.ToString("N0") VNĐ</td></tr>
+                    <tr class="fw-bold text-danger"><th class="bg-light">Tổng Hóa Đơn</th><td>@Model.TongHoaDon.ToString("N0") VNĐ</td></tr>
+                </tbody>
+            </table>
+            <form asp-action="Delete" method="post">
+                <input type="hidden" name="id" value="@Model.MaHoaDon" />
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-danger px-4">🗑️ Xác nhận xóa</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4">🔙 Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(to right, #ff416c, #ff4b2b);
+    }
+    .table th, .table td {
+        padding: 12px;
+    }
+    .table th {
+        text-align: left;
+    }
+    .btn {
+        border-radius: 10px;
+        font-size: 16px;
+    }
+</style>

@@ -1,0 +1,76 @@
+﻿@model QuanLyKTX.Models.TienDienNuoc
+
+@{
+    ViewData["Title"] = "Chỉnh Sửa Phiếu Thu Tiền Điện Nước";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4 p-4 bg-light text-dark rounded shadow-lg" style="border: 2px solid #007bff;">
+    <h2 class="text-center text-primary">⚡💧 Chỉnh Sửa Phiếu Thu Tiền Điện Nước 💧⚡</h2>
+    <form asp-action="Edit" class="mt-4">
+        <div class="form-horizontal">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaPhieu" />
+
+            <div class="form-group">
+                <label asp-for="NgayTaoPhieu" class="control-label">📅 Ngày Tạo Phiếu</label>
+                <input asp-for="NgayTaoPhieu" class="form-control border-primary" readonly />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MaPhong" class="control-label">🏠 Phòng</label>
+                <select asp-for="MaPhong" class="form-control border-primary" asp-items="ViewBag.MaPhong"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SoDien" class="control-label">⚡ Số Điện (kWh)</label>
+                <input asp-for="SoDien" class="form-control border-primary" type="number" min="0" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="GiaDien" class="control-label">💰 Giá Điện (VNĐ/kWh)</label>
+                <input asp-for="GiaDien" class="form-control border-primary" type="number" step="0.01" min="0" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SoNuoc" class="control-label">💦 Số Nước (m³)</label>
+                <input asp-for="SoNuoc" class="form-control border-primary" type="number" min="0" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="GiaNuoc" class="control-label">💰 Giá Nước (VNĐ/m³)</label>
+                <input asp-for="GiaNuoc" class="form-control border-primary" type="number" step="0.01" min="0" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TongTien" class="control-label">💲 Tổng Tiền (VNĐ)</label>
+                <input asp-for="TongTien" class="form-control border-primary text-danger fw-bold" readonly />
+            </div>
+
+            <div class="form-group text-center mt-4">
+                <input type="submit" value="💾 Lưu" class="btn btn-success px-4" />
+                <a asp-action="Index" class="btn btn-danger px-4">❌ Quay lại</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            function tinhTongTien() {
+                var soDien = parseFloat($("#SoDien").val()) || 0;
+                var giaDien = parseFloat($("#GiaDien").val()) || 0;
+                var soNuoc = parseFloat($("#SoNuoc").val()) || 0;
+                var giaNuoc = parseFloat($("#GiaNuoc").val()) || 0;
+                var tongTien = (soDien * giaDien + soNuoc * giaNuoc).toFixed(2);
+                $("#TongTien").val(tongTien);
+            }
+            $("#SoDien, #GiaDien, #SoNuoc, #GiaNuoc").on("input", function () {
+                tinhTongTien();
+            });
+            tinhTongTien();
+        });
+    </script>
+}

@@ -1,0 +1,36 @@
+﻿@model QuanLyKTX.Models.DangKyKhamChuaBenh
+@{
+    ViewData["Title"] = "Edit";
+}
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/0e/1c/45/0e1c45401476310c18f9f4451a0d646a.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+</style>
+
+<h1 class="text-warning text-center">Chỉnh Sửa Đăng Ký</h1>
+<div class="container d-flex justify-content-center">
+    <div class="col-md-6 card p-4 shadow-lg bg-light">
+        <form asp-action="Edit">
+            <div class="mb-3">
+                <label asp-for="NgayDangKy" class="form-label"></label>
+                <input asp-for="NgayDangKy" class="form-control" type="date" />
+                <span asp-validation-for="NgayDangKy" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="NoiDung" class="form-label"></label>
+                <textarea asp-for="NoiDung" class="form-control"></textarea>
+                <span asp-validation-for="NoiDung" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="MaSV" class="form-label"></label>
+                <input asp-for="MaSV" class="form-control" />
+                <span asp-validation-for="MaSV" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Lưu</button>
+            <a asp-action="Index" class="btn btn-secondary">Quay Lại</a>
+        </form>
+    </div>
+</div>
+    

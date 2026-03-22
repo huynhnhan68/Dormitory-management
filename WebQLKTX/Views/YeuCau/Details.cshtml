@@ -1,0 +1,43 @@
+﻿@model QuanLyKTX.Models.YeuCau
+
+@{
+    ViewData["Title"] = "Chi tiết Yêu Cầu";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg border-0">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0"><i class="bi bi-info-circle"></i> Chi tiết Yêu Cầu</h3>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold">Mã Yêu Cầu:</dt>
+                <dd class="col-sm-9">@Model.MaYeuCau</dd>
+
+                <dt class="col-sm-3 fw-bold">Nội Dung:</dt>
+                <dd class="col-sm-9">@Model.NoiDung</dd>
+
+                <dt class="col-sm-3 fw-bold">Ngày Gửi:</dt>
+                <dd class="col-sm-9">@Model.NgayGui.ToString("dd/MM/yyyy")</dd>
+
+                <dt class="col-sm-3 fw-bold">Trạng Thái:</dt>
+                <dd class="col-sm-9">
+                    <span class="badge @(Model.TrangThai == "Đã xử lý" ? "bg-success" : "bg-warning")">
+                        @Model.TrangThai
+                    </span>
+                </dd>
+
+                <dt class="col-sm-3 fw-bold">Mã Sinh Viên:</dt>
+                <dd class="col-sm-9">@Model.MaSV</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-end">
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left-circle"></i> Trở lại danh sách
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">

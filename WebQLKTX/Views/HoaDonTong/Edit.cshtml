@@ -1,0 +1,69 @@
+﻿@model QuanLyKTX.Models.HoaDonTong
+@{
+    ViewData["Title"] = "Chỉnh sửa hóa đơn";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded border-0" style="background: #fff;">
+        <div class="card-header bg-warning text-dark text-center rounded-top">
+            <h2 class="mb-0">Chỉnh Sửa Hóa Đơn</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <input type="hidden" asp-for="MaHoaDon" />
+                
+                <div class="mb-3">
+                    <label asp-for="MaHoaDon" class="form-label fw-bold"></label>
+                    <input asp-for="MaHoaDon" class="form-control border-2" readonly />
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="MaPhieuTienDienNuoc" class="form-label fw-bold"></label>
+                    <select asp-for="MaPhieuTienDienNuoc" class="form-select border-2" asp-items="@(new SelectList(ViewBag.DanhSachPhieuDienNuoc, "MaPhieu", "MaPhieu"))">
+                        <option value="">-- Chọn phiếu điện nước --</option>
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="MaPhong" class="form-label fw-bold"></label>
+                    <input asp-for="MaPhong" class="form-control border-2" placeholder="Nhập mã phòng" />
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="TienPhong" class="form-label fw-bold"></label>
+                    <input asp-for="TienPhong" class="form-control border-2" placeholder="Nhập tiền phòng" />
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="DaThanhToan" class="form-label fw-bold"></label>
+                    <select asp-for="DaThanhToan" class="form-select border-2">
+                        <option value="true">✔️ Đã Thanh Toán</option>
+                        <option value="false">❌ Chưa Thanh Toán</option>
+                    </select>
+                </div>
+                
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success px-4">💾 Lưu Thay Đổi</button>
+                    <a asp-action="Index" class="btn btn-danger px-4">❌ Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    }
+    .card {
+        max-width: 600px;
+        margin: auto;
+    }
+    .form-control, .form-select {
+        border-radius: 10px;
+    }
+    .btn {
+        border-radius: 10px;
+        font-size: 16px;
+    }
+</style>

@@ -1,0 +1,73 @@
+﻿@model QuanLyKTX.Models.Phong
+
+@{
+    ViewData["Title"] = "Xóa Phòng";
+}
+
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/d7/8f/4d/d78f4d7dd9b71f6dbb3542f46cc68371.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .content-container {
+        background: rgba(255, 235, 205, 0.9); /* Màu cam nhạt đặc trưng của mùa thu */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    h2 {
+        color: #b22222;
+    }
+
+    h3 {
+        color: #8b4513;
+    }
+
+    .btn-danger {
+        background-color: #d2691e; /* Màu cam đất */
+        border-color: #d2691e;
+    }
+
+    .btn-secondary {
+        background-color: #6b4226; /* Màu nâu trầm */
+        border-color: #6b4226;
+    }
+</style>
+
+<div class="container">
+    <div class="content-container">
+        <h2>Xóa Phòng</h2>
+        <h3>Bạn có chắc chắn muốn xóa phòng này?</h3>
+        <div>
+            <h4>Thông Tin Phòng</h4>
+            <hr />
+            <dl class="row text-left">
+                <dt class="col-sm-4">Mã Phòng</dt>
+                <dd class="col-sm-8">@Model.MaPhong</dd>
+
+                <dt class="col-sm-4">Tên Phòng</dt>
+                <dd class="col-sm-8">@Model.TenPhong</dd>
+
+                <dt class="col-sm-4">Loại Phòng</dt>
+                <dd class="col-sm-8">@Model.LoaiPhong</dd>
+
+                <dt class="col-sm-4">Số Lượng Tối Đa</dt>
+                <dd class="col-sm-8">@Model.SoLuongToiDa</dd>
+
+               
+            </dl>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="MaPhong" />
+                <input type="submit" value="Xóa" class="btn btn-danger" />
+                <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+            </form>
+        </div>
+    </div>
+</div>

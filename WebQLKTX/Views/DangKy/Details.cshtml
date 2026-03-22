@@ -1,0 +1,27 @@
+﻿@model QuanLyKTX.Models.DangKy
+
+@{
+    ViewData["Title"] = "Chi Tiết Đăng Ký";
+}
+
+<h2>Chi Tiết Đăng Ký</h2>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>Mã Đăng Ký:</dt>
+        <dd>@Model.MaDangKy</dd>
+
+        <dt>Ngày Đăng Ký:</dt>
+        <dd>@Model.NgayDangKy.ToString("dd/MM/yyyy")</dd>
+
+        <dt>Nội Dung:</dt>
+        <dd>@Model.NoiDung</dd>
+
+        <dt>Mã Sinh Viên:</dt>
+        <dd>@Model.MaSV</dd>
+    </dl>
+
+    <a asp-action="Edit" asp-route-id="@Model.MaDangKy" class="btn btn-warning">Chỉnh Sửa</a>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</div>
+

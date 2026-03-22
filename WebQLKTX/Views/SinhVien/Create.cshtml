@@ -1,0 +1,156 @@
+﻿@model QuanLyKTX.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Thêm Sinh Viên";
+}
+
+<style>
+    /* Nền toàn màn hình với ảnh không bị vỡ */
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://i.pinimg.com/736x/1c/ca/c6/1ccac622a6c64dbaa5677d208a190587.jpg') no-repeat center center fixed;
+        background-size: cover; /* Đảm bảo ảnh không bị méo */
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    /* Form container với nền trong suốt */
+    .form-container {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    /* Bo góc cho các input */
+    .form-control {
+        border-radius: 8px;
+    }
+
+    /* Hiệu ứng khi hover vào nút */
+    .btn {
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+
+    .error-message {
+        color: red;
+        font-weight: bold;
+    }
+
+    .form-control.error {
+        border-color: red;
+    }
+</style>
+
+<div class="container">
+    <div class="form-container">
+        <h2 class="text-center text-primary"><i class="fas fa-user-plus"></i> Thêm Sinh Viên</h2>
+
+        <form id="createForm" asp-action="Create">
+            <div class="mb-3">
+                <label asp-for="MaSV" class="form-label fw-bold">Mã Sinh Viên</label>
+                <input asp-for="MaSV" class="form-control" placeholder="Nhập mã sinh viên..." required />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="HoTen" class="form-label fw-bold">Họ Tên</label>
+                <input asp-for="HoTen" class="form-control" placeholder="Nhập họ và tên..." required />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="NgaySinh" class="form-label fw-bold">Ngày Sinh</label>
+                <input asp-for="NgaySinh" id="NgaySinh" class="form-control" type="date" required />
+                <span id="ageErrorMessage" class="error-message" style="display:none;">Sinh viên phải đủ 18 tuổi trở lên.</span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="GioiTinh" class="form-label fw-bold">Giới Tính</label>
+                <select asp-for="GioiTinh" class="form-control">
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="SDT" class="form-label fw-bold">Số Điện Thoại</label>
+                <input asp-for="SDT" class="form-control" placeholder="Nhập số điện thoại..." required />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label fw-bold">Email</label>
+                <input asp-for="Email" class="form-control" type="email" placeholder="Nhập email..." required />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="DiaChi" class="form-label fw-bold">Địa Chỉ</label>
+                <input asp-for="DiaChi" class="form-control" placeholder="Nhập địa chỉ..." required />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="MaPhong" class="form-label fw-bold">Mã Phòng</label>
+                <input asp-for="MaPhong" id="MaPhong" class="form-control" placeholder="Nhập mã phòng..." required />
+                <span id="roomFullMessage" class="error-message" style="display:none;">Phòng đã đầy, vui lòng chọn phòng khác.</span>
+                <span id="roomNotFoundMessage" class="error-message" style="display:none;">Phòng không tồn tại, vui lòng chọn phòng khác.</span>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-success"><i class="fas fa-save"></i> Lưu</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('createForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var maPhong = document.getElementById('MaPhong').value;
+            var ngaySinh = new Date(document.getElementById('NgaySinh').value);
+            var today = new Date();
+            var age = today.getFullYear() - ngaySinh.getFullYear();
+            var m = today.getMonth() - ngaySinh.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < ngaySinh.getDate())) {
+                age--;
+            }
+
+            if (age < 18) {
+                document.getElementById('ageErrorMessage').style.display = 'block';
+                return;
+            } else {
+                document.getElementById('ageErrorMessage').style.display = 'none';
+            }
+
+            fetch(`/Phong/CheckRoomCapacity?maPhong=${maPhong}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.notFound) {
+                        document.getElementById('roomNotFoundMessage').style.display = 'block';
+                        document.getElementById('roomFullMessage').style.display = 'none';
+                        document.getElementById('MaPhong').classList.add('error');
+                    } else if (data.isFull) {
+                        document.getElementById('roomFullMessage').style.display = 'block';
+                        document.getElementById('roomNotFoundMessage').style.display = 'none';
+                        document.getElementById('MaPhong').classList.add('error');
+                    } else {
+                        document.getElementById('roomFullMessage').style.display = 'none';
+                        document.getElementById('roomNotFoundMessage').style.display = 'none';
+                        document.getElementById('MaPhong').classList.remove('error');
+                        this.submit();
+                    }
+                });
+        });
+    </script>
+}
+

@@ -1,0 +1,39 @@
+﻿@model QuanLyKTX.Models.ThongBao
+
+@{
+    ViewData["Title"] = "Xóa Thông Báo";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded border-0" style="background: #fff; max-width: 600px; margin: auto;">
+        <div class="card-header bg-danger text-white text-center rounded-top">
+            <h2 class="mb-0">🗑️ Xóa Thông Báo</h2>
+        </div>
+        <div class="card-body">
+            <h3 class="text-center text-warning mb-4">Bạn có chắc chắn muốn xóa thông báo này không?</h3>
+            <hr />
+            <div class="alert alert-danger text-center">
+                <strong>Cảnh báo:</strong> Việc xóa sẽ không thể hoàn tác!
+            </div>
+
+            <div>
+                <h4 class="fw-bold text-dark">Thông tin Thông Báo</h4>
+                <dl class="row">
+                    <dt class="col-sm-4">Tiêu Đề</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.TieuDe)</dd>
+                    <dt class="col-sm-4">Nội Dung</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.NoiDung)</dd>
+                    <dt class="col-sm-4">Ngày Đăng</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.NgayDang)</dd>
+                </dl>
+            </div>
+
+            <form asp-action="Delete" method="post" class="text-center">
+                <!-- Đổi action -->
+                <input type="hidden" asp-for="MaThongBao" />
+                <button type="submit" class="btn btn-danger px-4 py-2 rounded-pill">Xóa Thông Báo</button>
+                <a asp-action="Index" class="btn btn-secondary px-4 py-2 rounded-pill ms-3">Quay lại danh sách</a>
+            </form>
+        </div>
+    </div>
+</div>

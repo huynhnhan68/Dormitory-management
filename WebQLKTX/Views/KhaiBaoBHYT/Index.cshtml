@@ -1,0 +1,59 @@
+﻿@model IEnumerable<QuanLyKTX.Models.KhaiBaoBHYT>
+
+@{
+    ViewData["Title"] = "Quản lý khai báo BHYT";
+}
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/72/84/a5/7284a5a694f99e5a850dde33ff47f941.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Arial', sans-serif;
+    }
+</style>
+<div class="container mt-4">
+    <h2 class="text-center text-primary">
+        <i class="fas fa-notes-medical"></i> Quản lý khai báo BHYT
+    </h2>
+
+    <div class="d-flex justify-content-between my-3">
+        <a asp-action="Create" class="btn btn-success">
+            <i class="fas fa-plus-circle"></i> Khai báo mới
+        </a>
+    </div>
+
+    <table class="table table-bordered table-hover bg-white shadow-sm">
+        <thead class="bg-primary text-white text-center">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.MaKhaiBao)</th>
+                <th>@Html.DisplayNameFor(model => model.MaTheBHYT)</th>
+                <th>@Html.DisplayNameFor(model => model.NgayCap)</th>
+                <th>@Html.DisplayNameFor(model => model.NgayHetHan)</th>
+                <th>@Html.DisplayNameFor(model => model.MaSV)</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="text-center">
+                    <td>@Html.DisplayFor(modelItem => item.MaKhaiBao)</td>
+                    <td>@Html.DisplayFor(modelItem => item.MaTheBHYT)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NgayCap)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NgayHetHan)</td>
+                    <td>@Html.DisplayFor(modelItem => item.MaSV)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.MaKhaiBao" class="btn btn-warning btn-sm">
+                            <i class="fas fa-edit"></i> Sửa
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.MaKhaiBao" class="btn btn-info btn-sm">
+                            <i class="fas fa-info-circle"></i> Chi tiết
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.MaKhaiBao" class="btn btn-danger btn-sm">
+                            <i class="fas fa-trash"></i> Xóa
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

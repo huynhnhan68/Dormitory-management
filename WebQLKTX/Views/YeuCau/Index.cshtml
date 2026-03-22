@@ -1,0 +1,122 @@
+﻿@model IEnumerable<QuanLyKTX.Models.YeuCau>
+
+@{
+    ViewData["Title"] = "Quản lý Yêu Cầu";
+}
+
+<style>
+    body {
+        background-image: url('https://i.pinimg.com/736x/35/5c/3e/355c3e80c8d380c941bf916219615d6f.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container-custom {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+    }
+
+    h1 {
+        color: #007bff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .btn-add {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+        .btn-add:hover {
+            background-color: #218838;
+        }
+
+    .table {
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .table th {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+        }
+
+        .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+    .badge {
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .badge-pending {
+        background-color: #ffc107;
+        color: black;
+    }
+
+    .badge-approved {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .action-links a {
+        margin: 0 5px;
+        font-weight: bold;
+    }
+
+        .action-links a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container container-custom">
+    <h1>📋 Quản Lý Yêu Cầu</h1>
+
+    <a asp-action="Create" class="btn btn-add">➕ Thêm Yêu Cầu</a>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>📝 Nội dung</th>
+                <th>📅 Ngày gửi</th>
+                <th>🔖 Trạng thái</th>
+                <th>🆔 Mã SV</th>
+                <th>⚙️ Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaYeuCau</td>
+                    <td>@item.NoiDung</td>
+                    <td>@item.NgayGui.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <span class="badge @(item.TrangThai == "Đã duyệt" ? "badge-approved" : "badge-pending")">
+                            @item.TrangThai
+                        </span>
+                    </td>
+                    <td>@item.MaSV</td>
+                    <td class="action-links">
+                        <a asp-action="Details" asp-route-id="@item.MaYeuCau" class="text-info">🔍 Xem</a>
+                        <a asp-action="Delete" asp-route-id="@item.MaYeuCau" class="text-danger">🗑️ Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

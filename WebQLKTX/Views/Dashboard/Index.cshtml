@@ -1,0 +1,119 @@
+﻿@using System.Text.Json
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2 class="mb-4">📊 Bảng điều khiển</h2>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-header">👨‍🎓 Sinh viên</div>
+            <div class="card-body">
+                <h3>@Model.TotalStudents</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-header">🏠 Phòng</div>
+            <div class="card-body">
+                <h3>@Model.TotalRooms</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-warning mb-3">
+            <div class="card-header">📜 Hóa đơn</div>
+            <div class="card-body">
+                <h3>@Model.TotalInvoices</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-danger mb-3">
+            <div class="card-header">📩 Yêu cầu</div>
+            <div class="card-body">
+                <h3>@Model.TotalRequests</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-info mb-3">
+            <div class="card-header">📢 Thông báo</div>
+            <div class="card-body">
+                <h3>@Model.TotalAnnouncements</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-secondary mb-3">
+            <div class="card-header">🏥 Khai báo BHYT</div>
+            <div class="card-body">
+                <h3>@Model.TotalHealthDeclarations</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-dark mb-3">
+            <div class="card-header">🩺 Đăng ký Khám chữa bệnh</div>
+            <div class="card-body">
+                <h3>@Model.TotalMedicalRegistrations</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Biểu đồ Thống kê Sinh viên Nam - Nữ -->
+<div class="row mt-4">
+    <div class="col-md-6 mx-auto">
+        <div class="card shadow-sm border-0">
+            <div class="card-header text-white bg-primary fw-bold">📈 Thống kê Sinh viên Nam - Nữ</div>
+            <div class="card-body">
+                <canvas id="studentChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Thư viện Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var studentStats = @Html.Raw(JsonSerializer.Serialize(Model.StudentStats));
+        var labels = studentStats.map(s => s.Gender);
+        var counts = studentStats.map(s => s.Count);
+
+        var ctx = document.getElementById("studentChart").getContext("2d");
+        var studentChart = new Chart(ctx, {
+            type: "bar",
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: "Số lượng sinh viên",
+                    data: counts,
+                    backgroundColor: ["#007bff", "#ff66b2"],
+                    borderColor: ["#0056b3", "#cc0052"],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+    });
+</script>

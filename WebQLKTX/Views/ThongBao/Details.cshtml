@@ -1,0 +1,79 @@
+﻿@model QuanLyKTX.Models.ThongBao
+
+@{
+    ViewData["Title"] = "Chi Tiết Thông Báo";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded border-0" style="background: #fff; max-width: 700px; margin: auto;">
+        <div class="card-header bg-info text-white text-center rounded-top">
+            <h2 class="mb-0">📢 Chi Tiết Thông Báo</h2>
+        </div>
+        <div class="card-body">
+            <div class="alert alert-info text-center">
+                <strong>Thông Báo Chi Tiết:</strong> Dưới đây là thông tin chi tiết của thông báo bạn đã chọn.
+            </div>
+            <h4 class="fw-bold text-dark">Thông Tin Thông Báo</h4>
+            <dl class="row">
+                <dt class="col-sm-4">Tiêu Đề</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TieuDe)</dd>
+                <dt class="col-sm-4">Nội Dung</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NoiDung)</dd>
+                <dt class="col-sm-4">Ngày Đăng</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NgayDang)</dd>
+            </dl>
+            <div class="text-center mt-4">
+                <a asp-action="Edit" asp-route-id="@Model.MaThongBao" class="btn btn-warning px-4 py-2 rounded-pill">✏️ Chỉnh Sửa</a>
+                <a asp-action="Index" class="btn btn-secondary px-4 py-2 rounded-pill ms-3">🔙 Quay Lại Danh Sách</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(to right, #00c6ff, #0072ff);
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .card-header {
+        font-size: 24px;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .alert-info {
+        font-size: 18px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: #d1ecf1;
+        color: #0c5460;
+    }
+
+    .btn {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+    .card-body {
+        padding: 30px;
+    }
+
+    .text-dark {
+        color: #333 !important;
+    }
+
+    .fw-bold {
+        font-weight: 700;
+    }
+
+    .ms-3 {
+        margin-left: 1rem;
+    }
+</style>

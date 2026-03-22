@@ -1,0 +1,50 @@
+﻿@model QuanLyKTX.Models.HoaDonTong
+
+@{
+    ViewData["Title"] = "Chi tiết hóa đơn";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded border-0" style="background: #fff; max-width: 600px; margin: auto;">
+        <div class="card-header bg-info text-white text-center rounded-top">
+            <h2 class="mb-0">🧾 Chi Tiết Hóa Đơn</h2>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered text-center">
+                <tbody>
+                    <tr><th class="bg-light">Mã Hóa Đơn</th><td>@Model.MaHoaDon</td></tr>
+                    <tr><th class="bg-light">Mã Phiếu</th><td>@Model.MaPhieuTienDienNuoc</td></tr>
+                    <tr><th class="bg-light">Mã Phòng</th><td>@Model.MaPhong</td></tr>
+                    <tr><th class="bg-light">Tiền Phòng</th><td>@Model.TienPhong.ToString("N0") VNĐ</td></tr>
+                    <tr><th class="bg-light">Tiền Điện Nước</th><td>@Model.TongTienDienNuoc.ToString("N0") VNĐ</td></tr>
+                    <tr class="fw-bold text-danger"><th class="bg-light">Tổng Hóa Đơn</th><td>@Model.TongHoaDon.ToString("N0") VNĐ</td></tr>
+                    <tr class="fw-bold">
+                        <th class="bg-light">Trạng Thái</th>
+                        <td class="@(Model.DaThanhToan ? "text-success" : "text-danger")">
+                            @(Model.DaThanhToan ? "✔️ Đã thanh toán" : "❌ Chưa thanh toán")
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="text-center">
+                <a asp-action="Index" class="btn btn-secondary px-4">🔙 Quay Lại</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(to right, #56ccf2, #2f80ed);
+    }
+    .table th, .table td {
+        padding: 12px;
+    }
+    .table th {
+        text-align: left;
+    }
+    .btn {
+        border-radius: 10px;
+        font-size: 16px;
+    }
+</style>

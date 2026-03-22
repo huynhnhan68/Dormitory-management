@@ -1,0 +1,70 @@
+﻿@model QuanLyKTX.Models.Phong
+
+@{
+    ViewData["Title"] = "Chi Tiết Phòng";
+}
+
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/d7/8f/4d/d78f4d7dd9b71f6dbb3542f46cc68371.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .detail-container {
+        background: rgba(255, 228, 196, 0.9); /* Màu be nhẹ tạo cảm giác ấm áp */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    h2 {
+        color: #b22222;
+    }
+
+    dt {
+        font-weight: bold;
+        color: #8b4513;
+    }
+
+    dd {
+        margin-bottom: 10px;
+    }
+
+    .btn-warning {
+        background-color: #ff8c00; /* Màu cam rực rỡ */
+        border-color: #ff8c00;
+    }
+
+    .btn-secondary {
+        background-color: #6b4226; /* Màu nâu trầm mùa thu */
+        border-color: #6b4226;
+    }
+</style>
+
+<div class="container">
+    <div class="detail-container">
+        <h2>Chi Tiết Phòng</h2>
+        <dl class="dl-horizontal text-left">
+            <dt>Mã Phòng:</dt>
+            <dd>@Model.MaPhong</dd>
+
+            <dt>Tên Phòng:</dt>
+            <dd>@Model.TenPhong</dd>
+
+            <dt>Loại Phòng:</dt>
+            <dd>@Model.LoaiPhong</dd>
+
+            <dt>Số Lượng Tối Đa:</dt>
+            <dd>@Model.SoLuongToiDa</dd>
+
+            <dt>Số Lượng Hiện Tại:</dt>
+            <dd>@Model.SinhViens.Count()</dd>
+        </dl>
+        <a asp-action="Edit" asp-route-id="@Model.MaPhong" class="btn btn-warning">Chỉnh Sửa</a>
+        <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+    </div>
+</div>

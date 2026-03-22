@@ -1,0 +1,86 @@
+﻿@model QuanLyKTX.Models.YeuCau
+
+@{
+    ViewData["Title"] = "Xóa Yêu Cầu";
+}
+
+<style>
+    body {
+        background-image: url('https://i.pinimg.com/736x/35/5c/3e/355c3e80c8d380c941bf916219615d6f.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 50px auto;
+        max-width: 600px;
+    }
+
+    .alert-warning {
+        padding: 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        color: #856404;
+        background-color: #fff3cd;
+        border: 1px solid #ffeeba;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .text-highlight {
+        font-weight: bold;
+        color: #d9534f;
+    }
+</style>
+
+<div class="card">
+    <h2 class="text-danger text-center">⚠️ Xóa Yêu Cầu</h2>
+    <div class="alert alert-warning text-center">
+        Bạn có chắc chắn muốn <span class="text-highlight">xóa yêu cầu</span> này không?<br />
+        <strong>Hành động này không thể hoàn tác!</strong>
+    </div>
+    <hr />
+
+    <h4>📌 Chi tiết Yêu Cầu</h4>
+    <dl class="row">
+        <dt class="col-sm-4">📝 Nội dung:</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.NoiDung)</dd>
+
+        <dt class="col-sm-4">📅 Ngày gửi:</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.NgayGui)</dd>
+
+        <dt class="col-sm-4">🔖 Trạng thái:</dt>
+        <dd class="col-sm-8">
+            <span class="badge @(Model.TrangThai == "Đã duyệt" ? "badge-success" : "badge-warning")">
+                @Html.DisplayFor(model => model.TrangThai)
+            </span>
+        </dd>
+
+        <dt class="col-sm-4">🆔 Mã sinh viên:</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.MaSV)</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="MaYeuCau" />
+        <div class="text-center">
+            <button type="submit" class="btn btn-danger">🗑️ Xóa</button>
+            <a asp-action="Index" class="btn btn-secondary">🔙 Hủy</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,84 @@
+﻿@model QuanLyKTX.Models.YeuCau
+
+@{
+    ViewData["Title"] = "Tạo Yêu Cầu Mới";
+}
+
+<style>
+    body {
+        background-image: url('https://i.pinimg.com/736x/35/5c/3e/355c3e80c8d380c941bf916219615d6f.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 50px auto;
+        max-width: 600px;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        border: 1px solid #ced4da;
+        padding: 10px;
+    }
+
+    .btn-submit {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+        .btn-submit:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-back {
+        background-color: #6c757d;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="card">
+    <h2 class="text-center text-primary">📌 Tạo Yêu Cầu Mới</h2>
+    <hr />
+    <form asp-action="Create">
+        <div class="form-group">
+            <label asp-for="NoiDung" class="font-weight-bold">📝 Nội dung yêu cầu</label>
+            <textarea asp-for="NoiDung" class="form-control" rows="3" placeholder="Nhập nội dung yêu cầu..."></textarea>
+            <span asp-validation-for="NoiDung" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NgayGui" class="font-weight-bold">📅 Ngày gửi</label>
+            <input asp-for="NgayGui" type="date" class="form-control" />
+            <span asp-validation-for="NgayGui" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="TrangThai" class="font-weight-bold">🔖 Trạng thái</label>
+            <select asp-for="TrangThai" class="form-control">
+                <option value="Chờ duyệt">Chờ duyệt</option>
+                <option value="Đã duyệt">Đã duyệt</option>
+            </select>
+            <span asp-validation-for="TrangThai" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="MaSV" class="font-weight-bold">🆔 Mã sinh viên</label>
+            <input asp-for="MaSV" class="form-control" placeholder="Nhập mã sinh viên..." />
+            <span asp-validation-for="MaSV" class="text-danger"></span>
+        </div>
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-submit">📩 Gửi Yêu Cầu</button>
+            <a asp-action="Index" class="btn btn-back">🔙 Quay lại</a>
+        </div>
+    </form>
+</div>

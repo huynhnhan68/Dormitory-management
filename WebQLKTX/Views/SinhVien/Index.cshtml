@@ -1,0 +1,85 @@
+﻿@model List<QuanLyKTX.Models.SinhVien>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<style>
+    /* Nền toàn màn hình với ảnh không bị vỡ */
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://i.pinimg.com/736x/1c/ca/c6/1ccac622a6c64dbaa5677d208a190587.jpg') no-repeat center center fixed;
+        background-size: cover; /* Đảm bảo ảnh không bị méo */
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    /* Hiệu ứng đổ bóng và bo góc cho nội dung */
+    .container {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="text-primary fw-bold"><i class="fas fa-users"></i> Danh sách sinh viên</h2>
+        <a asp-action="Create" class="btn btn-success shadow-sm">
+            <i class="fas fa-user-plus"></i> Thêm sinh viên
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered shadow-sm">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>Mã sinh viên</th>
+                    <th>Họ tên</th>
+                    <th>Ngày sinh</th>
+                    <th>Giới tính</th>
+                    <th>Số điện thoại</th>
+                    <th>Email</th>
+                    <th>Địa chỉ</th>
+                    <th>Mã phòng</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var sv in Model)
+                {
+                    <tr class="text-center align-middle">
+                        <td>@sv.MaSV</td>
+                        <td>@sv.HoTen</td>
+                        <td>@sv.NgaySinh.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            @if (sv.GioiTinh == "Nam")
+                            {
+                                <span class="badge bg-primary"><i class="fas fa-mars"></i> Nam</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger"><i class="fas fa-venus"></i> Nữ</span>
+                            }
+                        </td>
+                        <td>@sv.SDT</td>
+                        <td>@sv.Email</td>
+                        <td>@sv.DiaChi</td>
+                        <td><span class="badge bg-info text-dark">@sv.MaPhong</span></td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@sv.MaSV" class="btn btn-warning btn-sm">
+                                <i class="fas fa-edit"></i> Sửa
+                            </a>
+                            <a asp-action="Details" asp-route-id="@sv.MaSV" class="btn btn-info btn-sm">
+                                <i class="fas fa-eye"></i> Xem
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@sv.MaSV" class="btn btn-danger btn-sm">
+                                <i class="fas fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

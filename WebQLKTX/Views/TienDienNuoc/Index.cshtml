@@ -1,0 +1,124 @@
+﻿@model IEnumerable<QuanLyKTX.Models.TienDienNuoc>
+
+@{
+    ViewData["Title"] = "Danh Sách Phiếu Thu Tiền Điện Nước";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/c2/5e/da/c25eda72bf3f85722def0824592e3ff0.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .table-container {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        border: 2px solid #007bff;
+    }
+
+    th, td {
+        vertical-align: middle;
+    }
+
+    .btn {
+        min-width: 110px;
+        padding: 8px 12px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .action-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    tr:hover {
+        background-color: rgba(0, 123, 255, 0.1);
+        transition: 0.3s;
+    }
+
+    .table {
+        border: none;
+    }
+
+    .card {
+        border-radius: 15px;
+        overflow: hidden;
+        border: 2px solid #007bff;
+    }
+
+    .card-header {
+        background: linear-gradient(135deg, #007bff, #00c6ff);
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .btn i {
+        margin-right: 5px;
+    }
+
+    .total-price {
+        font-weight: bold;
+        color: red;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header">
+            📜 Danh Sách Phiếu Thu Tiền Điện Nước
+        </div>
+        <div class="card-body">
+            <div class="text-end mb-3">
+                <a asp-action="Create" class="btn btn-success shadow-lg"><i class="fas fa-plus"></i> Thêm Phiếu Mới</a>
+            </div>
+
+            <div class="table-responsive table-container">
+                <table class="table table-hover text-center align-middle shadow">
+                    <thead class="table-primary text-dark">
+                        <tr>
+                            <th>Mã Phiếu</th>
+                            <th>Phòng</th>
+                            <th>Ngày Lập Phiếu</th>
+                            <th>Số Điện (kWh)</th>
+                            <th>Giá Điện (VNĐ/kWh)</th>
+                            <th>Số Nước (m³)</th>
+                            <th>Giá Nước (VNĐ/m³)</th>
+                            <th class="total-price">Tổng Tiền (VNĐ)</th>
+                            <th>Hành Động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MaPhieu</td>
+                                <td>@item.Phong.TenPhong</td>
+                                <td>@item.NgayTaoPhieu.ToString("dd/MM/yyyy")</td>
+                                <td>@item.SoDien</td>
+                                <td>@item.GiaDien.ToString("N0")</td>
+                                <td>@item.SoNuoc</td>
+                                <td>@item.GiaNuoc.ToString("N0")</td>
+                                <td class="total-price">@item.TongTien.ToString("N0")</td>
+                                <td>
+                                    <div class="action-buttons">
+                                        <a asp-action="Edit" asp-route-id="@item.MaPhieu" class="btn btn-warning"><i class="fas fa-edit"></i> Sửa</a>
+                                        <a asp-action="Details" asp-route-id="@item.MaPhieu" class="btn btn-info"><i class="fas fa-info-circle"></i> Chi Tiết</a>
+                                        <a asp-action="Delete" asp-route-id="@item.MaPhieu" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Xóa</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

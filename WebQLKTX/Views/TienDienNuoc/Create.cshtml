@@ -1,0 +1,95 @@
+﻿@model QuanLyKTX.Models.TienDienNuoc
+
+@{
+    ViewData["Title"] = "Tạo Phiếu Thu Tiền Điện Nước";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card shadow-lg p-4" style="background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; border-radius: 15px;">
+    <h2 class="text-center mb-4">🔌💧 Tạo Phiếu Thu Tiền Điện Nước</h2>
+    <form asp-action="Create">
+        <div class="form-horizontal">
+            <h4 class="mb-3 text-light">Thông Tin Phiếu</h4>
+            <hr class="border-light" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="MaPhieu" class="form-label">Mã Phiếu</label>
+                <input asp-for="MaPhieu" class="form-control" style="border-radius: 10px;" />
+                <span asp-validation-for="MaPhieu" class="text-warning"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="NgayTaoPhieu" class="form-label">Ngày Tạo Phiếu</label>
+                <input asp-for="NgayTaoPhieu" class="form-control" type="date" style="border-radius: 10px;" />
+                <span asp-validation-for="NgayTaoPhieu" class="text-warning"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="MaPhong" class="form-label">Phòng</label>
+                <select asp-for="MaPhong" class="form-select" asp-items="ViewBag.MaPhong" style="border-radius: 10px;"></select>
+                <span asp-validation-for="MaPhong" class="text-warning"></span>
+            </div>
+
+            <div class="mb-3 d-flex gap-3">
+                <div class="flex-fill">
+                    <label asp-for="SoDien" class="form-label">Số Điện (kWh)</label>
+                    <input asp-for="SoDien" class="form-control" type="number" min="0" style="border-radius: 10px;" />
+                    <span asp-validation-for="SoDien" class="text-warning"></span>
+                </div>
+                <div class="flex-fill">
+                    <label asp-for="GiaDien" class="form-label">Giá Điện (VNĐ/kWh)</label>
+                    <input asp-for="GiaDien" class="form-control" type="number" step="0.01" min="0" style="border-radius: 10px;" />
+                    <span asp-validation-for="GiaDien" class="text-warning"></span>
+                </div>
+            </div>
+
+            <div class="mb-3 d-flex gap-3">
+                <div class="flex-fill">
+                    <label asp-for="SoNuoc" class="form-label">Số Nước (m³)</label>
+                    <input asp-for="SoNuoc" class="form-control" type="number" min="0" style="border-radius: 10px;" />
+                    <span asp-validation-for="SoNuoc" class="text-warning"></span>
+                </div>
+                <div class="flex-fill">
+                    <label asp-for="GiaNuoc" class="form-label">Giá Nước (VNĐ/m³)</label>
+                    <input asp-for="GiaNuoc" class="form-control" type="number" step="0.01" min="0" style="border-radius: 10px;" />
+                    <span asp-validation-for="GiaNuoc" class="text-warning"></span>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="TongTien" class="form-label">💰 Tổng Tiền (VNĐ)</label>
+                <input asp-for="TongTien" class="form-control text-end fw-bold" readonly style="border-radius: 10px; background: rgba(255,255,255,0.2); color: white;" />
+                <span asp-validation-for="TongTien" class="text-warning"></span>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <a asp-action="Index" class="btn btn-light" style="border-radius: 10px;">⬅ Quay lại danh sách</a>
+                <button type="submit" class="btn btn-warning fw-bold" style="border-radius: 10px;">💾 Lưu</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            function tinhTongTien() {
+                var soDien = parseFloat($("#SoDien").val()) || 0;
+                var giaDien = parseFloat($("#GiaDien").val()) || 0;
+                var soNuoc = parseFloat($("#SoNuoc").val()) || 0;
+                var giaNuoc = parseFloat($("#GiaNuoc").val()) || 0;
+
+                var tongTien = (soDien * giaDien + soNuoc * giaNuoc).toFixed(2);
+                $("#TongTien").val(tongTien);
+            }
+
+            $("#SoDien, #GiaDien, #SoNuoc, #GiaNuoc").on("input", function () {
+                tinhTongTien();
+            });
+
+            tinhTongTien();
+        });
+    </script>
+}

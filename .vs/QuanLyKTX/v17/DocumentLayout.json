@@ -1,0 +1,1267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\phong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\phong\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\phong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\phong\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\phong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\phong\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\phong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\phong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\phongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\models\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\models\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\khaibaobhyt\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\khaibaobhyt\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\khaibaobhyt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\khaibaobhyt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\areas\\admin\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\areas\\admin\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\yeucaucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\yeucaucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\thongbaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\thongbaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\tiendiennuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\tiendiennuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\khaibaobhytcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\khaibaobhytcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\hoadontongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\hoadontongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\controllers\\dangkykhamchuabenhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\controllers\\dangkykhamchuabenhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\models\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\models\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\hoadontong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\hoadontong\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\migrations\\20250331142416_adddathanhtoantohoadontong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\migrations\\20250331142416_adddathanhtoantohoadontong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\data\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\khaibaobhyt\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\khaibaobhyt\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\tiendiennuoc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\tiendiennuoc\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\tiendiennuoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\tiendiennuoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\tiendiennuoc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\tiendiennuoc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\tiendiennuoc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\tiendiennuoc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\tiendiennuoc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\tiendiennuoc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangkykhamchuabenh\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangkykhamchuabenh\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangkykhamchuabenh\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangkykhamchuabenh\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\models\\hoadontong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\models\\hoadontong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangkykhamchuabenh\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangkykhamchuabenh\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\migrations\\20250329024306_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\migrations\\20250329024306_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\yeucau\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\yeucau\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\yeucau\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\yeucau\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangkykhamchuabenh\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangkykhamchuabenh\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\phong\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\phong\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\sinhvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\sinhvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\yeucau\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\yeucau\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\yeucau\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\yeucau\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\sinhvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\sinhvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\sinhvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\sinhvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\quanlyktx.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\quanlyktx.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\khaibaobhyt\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\khaibaobhyt\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\models\\yeucau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\models\\yeucau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\khaibaobhyt\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\khaibaobhyt\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangkykhamchuabenh\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangkykhamchuabenh\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\models\\dangkykhamchuabenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\models\\dangkykhamchuabenh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangky\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangky\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangky\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangky\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangky\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangky\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\views\\dangky\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\views\\dangky\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\models\\dangkybienso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\models\\dangkybienso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|c:\\users\\admin\\source\\repos\\webqlktx\\webqlktx\\quanlyktx.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{552CAEF4-6E1A-4B53-8F2B-D944C438D89F}|WebQLKTX\\QuanLyKTX.csproj|solutionrelative:webqlktx\\quanlyktx.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\Phong\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Edit.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\Phong\\Edit.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T14:32:54.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\Phong\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Index.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\Phong\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAiwIgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T14:32:10.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\Phong\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Details.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\Phong\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T14:33:37.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAswP4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T07:23:42.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:23:46.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Program.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Program.cs",
+              "RelativeToolTip": "WebQLKTX\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:05:09.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\Phong\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Create.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\Phong\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T14:32:31.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PhongController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\PhongController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\PhongController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\PhongController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\PhongController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T15:17:40.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAowHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T03:25:34.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T02:55:31.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:28:41.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\KhaiBaoBHYT\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Index.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\KhaiBaoBHYT\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:53:13.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Phong.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\Phong.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Models\\Phong.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\Phong.cs",
+              "RelativeToolTip": "WebQLKTX\\Models\\Phong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:06:57.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T14:59:08.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T14:59:31.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\KhaiBaoBHYT\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Edit.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\KhaiBaoBHYT\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:53:58.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebQLKTX\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebQLKTX\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-01T09:05:44.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebQLKTX\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebQLKTX\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-29T04:04:01.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Admin\\Models\\SD.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Areas\\Admin\\Models\\SD.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Areas\\Admin\\Models\\SD.cs",
+              "RelativeToolTip": "WebQLKTX\\Areas\\Admin\\Models\\SD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:12:11.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DangKyController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\DangKyController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\DangKyController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\DangKyController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\DangKyController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:14:32.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAiwIQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T03:08:51.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\appsettings.json",
+              "RelativeDocumentMoniker": "WebQLKTX\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\appsettings.json",
+              "RelativeToolTip": "WebQLKTX\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T14:01:36.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "WebQLKTX\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "WebQLKTX\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-22T02:46:54.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T03:02:14.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "YeuCauController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\YeuCauController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\YeuCauController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\YeuCauController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\YeuCauController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:43:03.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ThongBaoController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\ThongBaoController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\ThongBaoController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\ThongBaoController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\ThongBaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:43:48.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TienDienNuocController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\TienDienNuocController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\TienDienNuocController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\TienDienNuocController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\TienDienNuocController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:16:52.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "KhaiBaoBHYTController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\KhaiBaoBHYTController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\KhaiBaoBHYTController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\KhaiBaoBHYTController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\KhaiBaoBHYTController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:44:12.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:15:34.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SinhVienController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\SinhVienController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\SinhVienController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\SinhVienController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\SinhVienController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:55:59.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HoaDonTongController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\HoaDonTongController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\HoaDonTongController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\HoaDonTongController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\HoaDonTongController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:21:56.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:15:23.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DangKyKhamChuaBenhController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\DangKyKhamChuaBenhController.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Controllers\\DangKyKhamChuaBenhController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Controllers\\DangKyKhamChuaBenhController.cs",
+              "RelativeToolTip": "WebQLKTX\\Controllers\\DangKyKhamChuaBenhController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:15:18.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ThongBao.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\ThongBao.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Models\\ThongBao.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\ThongBao.cs",
+              "RelativeToolTip": "WebQLKTX\\Models\\ThongBao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:09:50.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppDbContext .cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Data\\AppDbContext .cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Data\\AppDbContext .cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Data\\AppDbContext .cs",
+              "RelativeToolTip": "WebQLKTX\\Data\\AppDbContext .cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwEIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:04:09.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\HoaDonTong\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\HoaDonTong\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\HoaDonTong\\Create.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\HoaDonTong\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T06:50:17.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250331142416_AddDaThanhToanToHoaDonTong.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Migrations\\20250331142416_AddDaThanhToanToHoaDonTong.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Migrations\\20250331142416_AddDaThanhToanToHoaDonTong.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Migrations\\20250331142416_AddDaThanhToanToHoaDonTong.cs",
+              "RelativeToolTip": "WebQLKTX\\Migrations\\20250331142416_AddDaThanhToanToHoaDonTong.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:24:17.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\TienDienNuoc\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Details.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\TienDienNuoc\\Details.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T05:13:34.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\KhaiBaoBHYT\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Create.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\KhaiBaoBHYT\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:53:20.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\TienDienNuoc\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Index.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\TienDienNuoc\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswGcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T04:45:59.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\TienDienNuoc\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Edit.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\TienDienNuoc\\Edit.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T04:34:32.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\TienDienNuoc\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Delete.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\TienDienNuoc\\Delete.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwC0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T05:13:41.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\TienDienNuoc\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\TienDienNuoc\\Create.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\TienDienNuoc\\Create.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T04:35:51.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Delete.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Delete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:38:37.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Index.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:37:56.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HoaDonTong.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\HoaDonTong.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Models\\HoaDonTong.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\HoaDonTong.cs",
+              "RelativeToolTip": "WebQLKTX\\Models\\HoaDonTong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:22:17.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Create.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:38:03.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "WebQLKTX\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAGUCAAAAAAAAAAASwCoBAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:49:25.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250329024306_AddIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Migrations\\20250329024306_AddIdentity.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Migrations\\20250329024306_AddIdentity.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Migrations\\20250329024306_AddIdentity.cs",
+              "RelativeToolTip": "WebQLKTX\\Migrations\\20250329024306_AddIdentity.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAowKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T02:43:07.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\YeuCau\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\YeuCau\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\YeuCau\\Index.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\YeuCau\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowHEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T01:09:18.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\YeuCau\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\YeuCau\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\YeuCau\\Delete.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\YeuCau\\Delete.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowFUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T01:09:39.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Edit.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:38:09.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\SinhVien.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Models\\SinhVien.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\SinhVien.cs",
+              "RelativeToolTip": "WebQLKTX\\Models\\SinhVien.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:06:18.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\SinhVien\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Details.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\SinhVien\\Details.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:21:18.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAowFwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T03:16:18.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\Phong\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Phong\\Delete.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\Phong\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T04:07:20.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKy\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Index.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKy\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:27:14.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\SinhVien\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Delete.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\SinhVien\\Delete.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:21:26.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\SinhVien\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Edit.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\SinhVien\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:20:52.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Models\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "WebQLKTX\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T07:48:42.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\YeuCau\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\YeuCau\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\YeuCau\\Details.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\YeuCau\\Details.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowCoAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T07:37:58.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\YeuCau\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\YeuCau\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\YeuCau\\Create.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\YeuCau\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T01:09:39.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\SinhVien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Index.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\SinhVien\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:19:38.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\SinhVien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\SinhVien\\Create.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\SinhVien\\Create.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:19:31.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T02:50:42.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "QuanLyKTX",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\QuanLyKTX.csproj",
+              "RelativeDocumentMoniker": "WebQLKTX\\QuanLyKTX.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\QuanLyKTX.csproj",
+              "RelativeToolTip": "WebQLKTX\\QuanLyKTX.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-29T05:50:26.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\KhaiBaoBHYT\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Delete.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\KhaiBaoBHYT\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:54:14.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "YeuCau.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\YeuCau.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Models\\YeuCau.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\YeuCau.cs",
+              "RelativeToolTip": "WebQLKTX\\Models\\YeuCau.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:09:00.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\KhaiBaoBHYT\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\KhaiBaoBHYT\\Details.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\KhaiBaoBHYT\\Details.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:54:07.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKyKhamChuaBenh\\Details.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKyKhamChuaBenh\\Details.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:38:27.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKy\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Create.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKy\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:27:20.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "DangKyKhamChuaBenh.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\DangKyKhamChuaBenh.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Models\\DangKyKhamChuaBenh.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\DangKyKhamChuaBenh.cs",
+              "RelativeToolTip": "WebQLKTX\\Models\\DangKyKhamChuaBenh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:08:18.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKy\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Edit.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKy\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:27:26.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKy\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Details.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKy\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:27:32.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebQLKTX\\Views\\DangKy\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Views\\DangKy\\Delete.cshtml",
+              "RelativeToolTip": "WebQLKTX\\Views\\DangKy\\Delete.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T15:27:40.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "DangKyBienSo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\DangKyBienSo.cs",
+              "RelativeDocumentMoniker": "WebQLKTX\\Models\\DangKyBienSo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\Models\\DangKyBienSo.cs",
+              "RelativeToolTip": "WebQLKTX\\Models\\DangKyBienSo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:07:59.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "QuanLyKTX.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\QuanLyKTX.csproj",
+              "RelativeDocumentMoniker": "WebQLKTX\\QuanLyKTX.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebQLKTX\\WebQLKTX\\QuanLyKTX.csproj",
+              "RelativeToolTip": "WebQLKTX\\QuanLyKTX.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-21T14:03:42.861Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

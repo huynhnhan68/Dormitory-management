@@ -1,0 +1,33 @@
+﻿@model QuanLyKTX.Models.DangKyKhamChuaBenh
+@{
+    ViewData["Title"] = "Delete";
+}
+<style>
+    body {
+        background: url('https://i.pinimg.com/736x/0e/1c/45/0e1c45401476310c18f9f4451a0d646a.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+</style>
+
+<h1 class="text-danger text-center">Xóa Đăng Ký</h1>
+<div class="container d-flex justify-content-center">
+    <div class="col-md-6 card p-4 shadow-lg bg-light">
+        <h4>Bạn có chắc chắn muốn xóa?</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-4">Mã Đăng Ký</dt>
+            <dd class="col-sm-8">@Model.MaDangKy</dd>
+            <dt class="col-sm-4">Ngày Đăng Ký</dt>
+            <dd class="col-sm-8">@Model.NgayDangKy</dd>
+            <dt class="col-sm-4">Nội Dung</dt>
+            <dd class="col-sm-8">@Model.NoiDung</dd>
+            <dt class="col-sm-4">Mã Sinh Viên</dt>
+            <dd class="col-sm-8">@Model.MaSV</dd>
+        </dl>
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="MaDangKy" />
+            <button type="submit" class="btn btn-danger">Xóa</button>
+            <a asp-action="Index" class="btn btn-secondary">Quay Lại</a>
+        </form>
+    </div>
+</div>

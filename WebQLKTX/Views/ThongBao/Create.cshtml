@@ -1,0 +1,100 @@
+﻿@model QuanLyKTX.Models.ThongBao
+
+@{
+    ViewData["Title"] = "Tạo Thông Báo";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded border-0" style="background: #f9f9f9; max-width: 600px; margin: auto;">
+        <div class="card-header text-white text-center rounded-top" style="background: linear-gradient(135deg, #ff7eb3, #ff758c);">
+            <h2 class="mb-0">📢 Tạo Thông Báo Mới</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create">
+                <div class="form-group mb-4">
+                    <label asp-for="TieuDe" class="fw-bold text-dark">Tiêu đề</label>
+                    <input asp-for="TieuDe" class="form-control rounded-pill" placeholder="Nhập tiêu đề thông báo..." />
+                    <span asp-validation-for="TieuDe" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-4">
+                    <label asp-for="NoiDung" class="fw-bold text-dark">Nội dung</label>
+                    <textarea asp-for="NoiDung" class="form-control rounded" rows="6" placeholder="Nhập nội dung thông báo..."></textarea>
+                    <span asp-validation-for="NoiDung" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-4">
+                    <label asp-for="NgayDang" class="fw-bold text-dark">Ngày Đăng</label>
+                    <input asp-for="NgayDang" type="date" class="form-control rounded-pill" />
+                    <span asp-validation-for="NgayDang" class="text-danger"></span>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary px-5 py-3 rounded-pill text-uppercase">✅ Tạo Thông Báo</button>
+                    <a asp-action="Index" class="btn btn-danger px-5 py-3 rounded-pill text-uppercase">🔙 Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card-header {
+        font-size: 24px;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+    }
+
+    .form-control {
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 15px;
+        border: 2px solid #ddd;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+        .form-control:focus {
+            border-color: #ff758c;
+            box-shadow: 0 0 8px rgba(255, 117, 140, 0.6);
+        }
+
+    .btn {
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        transition: transform 0.3s ease-in-out, background-color 0.3s;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #ff758c, #ff7eb3);
+        border: none;
+    }
+
+    .btn-danger {
+        background: linear-gradient(135deg, #ff6a88, #ff4757);
+        border: none;
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+    }
+
+    .card-body {
+        padding: 30px;
+    }
+
+    .card {
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+    .text-dark {
+        color: #333 !important;
+    }
+</style>

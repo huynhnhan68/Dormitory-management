@@ -1,0 +1,60 @@
+﻿@model QuanLyKTX.Models.HoaDonTong
+
+@{
+    ViewData["Title"] = "Create Invoice";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded border-0" style="background: #fff;">
+        <div class="card-header bg-primary text-white text-center rounded-top">
+            <h2 class="mb-0">Tạo Hóa Đơn</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create">
+                <div class="mb-3">
+                    <label asp-for="MaHoaDon" class="form-label fw-bold"></label>
+                    <input asp-for="MaHoaDon" class="form-control border-2" placeholder="Nhập mã hóa đơn" />
+                    <span asp-validation-for="MaHoaDon" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="MaPhieuTienDienNuoc" class="form-label fw-bold"></label>
+                    <select asp-for="MaPhieuTienDienNuoc" class="form-select border-2" asp-items="@(new SelectList(ViewBag.DanhSachPhieuDienNuoc, "MaPhieu", "MaPhieu"))">
+                        <option value="">-- Chọn phiếu điện nước --</option>
+                    </select>
+                    <span asp-validation-for="MaPhieuTienDienNuoc" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="MaPhong" class="form-label fw-bold"></label>
+                    <input asp-for="MaPhong" class="form-control border-2" placeholder="Nhập mã phòng" />
+                    <span asp-validation-for="MaPhong" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="TienPhong" class="form-label fw-bold"></label>
+                    <input asp-for="TienPhong" class="form-control border-2" placeholder="Nhập tiền phòng" />
+                    <span asp-validation-for="TienPhong" class="text-danger"></span>
+                </div>
+               
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success px-4">Tạo Hóa Đơn</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4">Quay Lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(to right, #8360c3, #2ebf91);
+    }
+    .card {
+        max-width: 600px;
+        margin: auto;
+    }
+    .form-control {
+        border-radius: 10px;
+    }
+    .btn {
+        border-radius: 10px;
+    }
+</style>

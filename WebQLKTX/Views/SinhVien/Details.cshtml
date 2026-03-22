@@ -1,0 +1,133 @@
+﻿@model QuanLyKTX.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Chi Tiết Sinh Viên";
+}
+
+<style>
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/1c/ca/c6/1ccac622a6c64dbaa5677d208a190587.jpg') no-repeat center center fixed;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .detail-container {
+        background: rgba(255, 255, 255, 0.98);
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        max-width: 700px;
+        margin: auto;
+        margin-top: 50px;
+        border: 2px solid #007bff;
+    }
+
+    .detail-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #007bff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .detail-box {
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 8px;
+        background: #f9f9f9;
+        margin-bottom: 10px;
+    }
+
+    .badge-gender {
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+
+    .btn {
+        border-radius: 8px;
+        font-weight: bold;
+        width: 48%;
+    }
+
+    .btn-warning:hover {
+        background-color: #e0a800;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+</style>
+
+<div class="container">
+    <div class="detail-container">
+        <h2 class="detail-title"><i class="fas fa-id-card"></i> Chi Tiết Sinh Viên</h2>
+
+        @if (Model == null)
+        {
+            <div class="alert alert-danger text-center">Không tìm thấy sinh viên.</div>
+        }
+        else
+        {
+            <dl class="dl-horizontal">
+                <div class="detail-box">
+                    <dt>Mã Sinh Viên:</dt>
+                    <dd>@Model.MaSV</dd>
+                </div>
+
+                <div class="detail-box">
+                    <dt>Họ Tên:</dt>
+                    <dd>@Model.HoTen</dd>
+                </div>
+
+                <div class="detail-box">
+                    <dt>Ngày Sinh:</dt>
+                    <dd>@Model.NgaySinh.ToString("dd/MM/yyyy")</dd>
+                </div>
+
+                <div class="detail-box">
+                    <dt>Giới Tính:</dt>
+                    <dd>
+                        @if (Model.GioiTinh == "Nam")
+                        {
+                            <span class="badge bg-primary badge-gender"><i class="fas fa-mars"></i> Nam</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger badge-gender"><i class="fas fa-venus"></i> Nữ</span>
+                        }
+                    </dd>
+                </div>
+
+                <div class="detail-box">
+                    <dt>Số Điện Thoại:</dt>
+                    <dd>@Model.SDT</dd>
+                </div>
+
+                <div class="detail-box">
+                    <dt>Email:</dt>
+                    <dd>@Model.Email</dd>
+                </div>
+
+                <div class="detail-box">
+                    <dt>Địa Chỉ:</dt>
+                    <dd>@Model.DiaChi</dd>
+                </div>
+
+                <div class="detail-box">
+                    <dt>Mã Phòng:</dt>
+                    <dd><span class="badge bg-info text-dark">@Model.MaPhong</span></dd>
+                </div>
+            </dl>
+
+            <div class="d-flex justify-content-between">
+                <a asp-action="Edit" asp-route-id="@Model.MaSV" class="btn btn-warning">
+                    <i class="fas fa-edit"></i> Chỉnh Sửa
+                </a>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Quay lại
+                </a>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,73 @@
+﻿@model QuanLyKTX.Models.ThongBao
+
+@{
+    ViewData["Title"] = "Chỉnh Sửa Thông Báo";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded border-0" style="max-width: 600px; margin: auto; background: #f8f9fa;">
+        <div class="card-header bg-primary text-white text-center rounded-top">
+            <h2 class="mb-0">✏️ Chỉnh Sửa Thông Báo</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit" method="post">
+                <input type="hidden" asp-for="MaThongBao" />
+
+                <div class="form-group mb-3">
+                    <label asp-for="TieuDe" class="form-label fw-bold">Tiêu Đề</label>
+                    <input asp-for="TieuDe" class="form-control border-primary" placeholder="Nhập tiêu đề thông báo..." required />
+                    <span asp-validation-for="TieuDe" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="NoiDung" class="form-label fw-bold">Nội Dung</label>
+                    <textarea asp-for="NoiDung" class="form-control border-primary" rows="5" placeholder="Nhập nội dung thông báo..." required></textarea>
+                    <span asp-validation-for="NoiDung" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="NgayDang" class="form-label fw-bold">Ngày Đăng</label>
+                    <input asp-for="NgayDang" type="date" class="form-control border-primary" required />
+                    <span asp-validation-for="NgayDang" class="text-danger"></span>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-success px-4 py-2 rounded-pill">💾 Lưu</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4 py-2 rounded-pill ms-2">❌ Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(to right, #00c6ff, #0072ff);
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .card-header {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+        .form-control:focus {
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+            border-color: #007bff;
+        }
+
+    .btn {
+        font-size: 18px;
+        font-weight: 600;
+        transition: transform 0.3s ease-in-out;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+</style>
